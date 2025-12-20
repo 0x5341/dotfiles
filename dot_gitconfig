@@ -1,3 +1,9 @@
 [user]
 	email = 107183580+0x5341@users.noreply.github.com
 	name = 0x5341
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.83.2/gh_2.83.2_linux_arm64/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.83.2/gh_2.83.2_linux_arm64/bin/gh auth git-credential

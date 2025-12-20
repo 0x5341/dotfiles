@@ -1,8 +1,12 @@
 {{- /* chezmoi:modify-template */ -}}
 {{- .chezmoi.stdin -}}
 
-{{ $mise := `eval "$(~/.local/bin/mise activate bash)"` }}
+{{- $flag := `# chezmoi:add-flag` -}}
 
-{{- if contains .chezmoi.stdin $mise }}
-{{- $mise }}
-{{- end }}
+{{- if not (contains $flag .chezmoi.stdin) -}}
+{{ $flag }}
+
+# mise activate
+eval "$(~/.local/bin/mise activate bash)"
+
+{{ end -}}

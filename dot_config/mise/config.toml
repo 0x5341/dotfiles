@@ -1,2 +1,13 @@
 [tools]
 chezmoi = "latest"
+gh = "latest"
+neovim = "latest"
+zig = "latest"
+"aqua:nushell/nushell" = "latest"
+zellij = "latest"
+starship = "latest"
+lazygit = "latest"
+
+[env]
+EDITOR = "nvim"
+
