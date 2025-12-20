@@ -6,6 +6,12 @@ neovim = "latest"
 zellij = "latest"
 starship = "latest"
 lazygit = "latest"
+tree-sitter = "latest"
+rg = "latest"
+fzf = "latest"
+fd = "latest"
+node = "latest"
+yazi = "latest"
 
 [env]
 EDITOR = "nvim"
