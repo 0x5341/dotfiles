@@ -1,6 +1,10 @@
 [user]
 	email = 107183580+0x5341@users.noreply.github.com
 	name = 0x5341
+[commit]
+  gpgsign = true
+[user]
+  signingkey = "C646BF864A239A2D"
 [credential "https://github.com"]
 	helper = 
 	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.83.2/gh_2.83.2_linux_arm64/bin/gh auth git-credential
