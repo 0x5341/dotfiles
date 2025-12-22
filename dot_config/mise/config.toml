@@ -13,7 +13,7 @@ fd = "latest"
 node = "latest"
 yazi = "latest"
 ghq = "latest"
+aqua = "latest"
 
 [env]
 EDITOR = "nvim"
-
