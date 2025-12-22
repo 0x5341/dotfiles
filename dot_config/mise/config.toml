@@ -12,6 +12,7 @@ fzf = "latest"
 fd = "latest"
 node = "latest"
 yazi = "latest"
+ghq = "latest"
 
 [env]
 EDITOR = "nvim"

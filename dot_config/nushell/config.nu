@@ -24,3 +24,14 @@ mkdir ($nu.data-dir | path join "vendor/autoload")
 ~/.local/bin/mise activate nu | save -f ($nu.data-dir | path join "vendor/autoload/mise.nu")
 
 source ./catppuccin_frappe.nu
+
+alias cz = chezmoi
+
+def --env czcd [] {
+  cd (chezmoi source-path)
+}
+
+def --env pjcd [] {
+  cd ("~/ghq/" + (ghq list | fzf))
+}
+
