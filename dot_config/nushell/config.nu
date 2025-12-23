@@ -26,6 +26,9 @@ mkdir ($nu.data-dir | path join "vendor/autoload")
 source ./catppuccin_frappe.nu
 
 alias cz = chezmoi
+alias lg = lazygit
+alias la = ls --all
+alias ll = ls -l --all
 
 def --env czcd [] {
   cd (chezmoi source-path)
