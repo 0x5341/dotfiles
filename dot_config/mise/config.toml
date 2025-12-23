@@ -1,24 +1,39 @@
 [tools]
+# general
 chezmoi = "latest"
-gh = "latest"
+bun = "latest"     # for `npm:` install
+uv = "latest"      # for `pipx:` install
+aqua = "latest"
+
+# programming
 neovim = "latest"
+lazygit = "latest"     # for lazyvim
+tree-sitter = "latest" # for lazyvim
+node = "latest"        # for lazyvim
+gh = "latest"
+ghq = "latest"
+
+# shell
 "aqua:nushell/nushell" = "latest"
 zellij = "latest"
 starship = "latest"
-lazygit = "latest"
-tree-sitter = "latest"
+
+# tools
 rg = "latest"
 fzf = "latest"
 fd = "latest"
-node = "latest"
 yazi = "latest"
-ghq = "latest"
-aqua = "latest"
-bun = "latest"
+
+# ai
 gemini = "latest"
+"aqua:github/github-mcp-server" = "0.26.3"
+"npm:@upstash/context7-mcp" = "latest"
+"pipx:git+https://github.com/oraios/serena.git" = "latest"
+
 
 [env]
 EDITOR = "nvim"
 
 [settings]
 npm.package_manager = "bun"
+pipx.uvx = true
