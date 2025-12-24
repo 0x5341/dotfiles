@@ -1,7 +1,7 @@
 {
   "CopilotChat.nvim": {
     "branch": "main",
-    "commit": "df5376c132382dd47e3e552612940cbf25b3580c"
+    "commit": "ed94e56ee8292f5df351e17709ff4b178ca84200"
   },
   "LazyVim": {
     "branch": "main",
@@ -14,6 +14,14 @@
   "SchemaStore.nvim": {
     "branch": "main",
     "commit": "8b92ea89835b8e5dbc779a675ebb0e5fcb9a1993"
+  },
+  "avante.nvim": {
+    "branch": "main",
+    "commit": "476f342fe6bc1e120ba3e334b5d9cf3ef66de56a"
+  },
+  "blink-cmp-avante": {
+    "branch": "master",
+    "commit": "4f494c6e124acbe31a8f5d58effa0c14aa38a6d5"
   },
   "blink-copilot": {
     "branch": "main",
@@ -127,6 +135,10 @@
     "branch": "master",
     "commit": "deadfb1af5ce458742671ad3a013acb9a6b41178"
   },
+  "neotest-golang": {
+    "branch": "main",
+    "commit": "37e400cfe9d193e508b1a512e96cbef83b08deb6"
+  },
   "noice.nvim": {
     "branch": "main",
     "commit": "7bfd942445fb63089b59f97ca487d605e715f155"
@@ -138,6 +150,10 @@
   "nvim-dap": {
     "branch": "master",
     "commit": "5860c7c501eb428d3137ee22c522828d20cca0b3"
+  },
+  "nvim-dap-go": {
+    "branch": "main",
+    "commit": "b4421153ead5d726603b02743ea40cf26a51ed5f"
   },
   "nvim-dap-ui": {
     "branch": "master",
