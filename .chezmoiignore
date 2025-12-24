@@ -1,3 +1,7 @@
 README.md
 setup.sh
 .gitignore
+
+{{if not .aqua.enable}}
+./.config/aqua/aquaproj-aqua
+{{end}}
