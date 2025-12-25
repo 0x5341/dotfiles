@@ -10,6 +10,7 @@ neovim = "latest"
 lazygit = "latest"     # for lazyvim
 tree-sitter = "latest" # for lazyvim
 node = "latest"        # for lazyvim
+make = "latest"        # for lazyvim
 gh = "latest"
 ghq = "latest"
 
