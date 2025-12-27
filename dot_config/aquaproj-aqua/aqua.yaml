@@ -2,20 +2,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/aqua-yaml.json
 # aqua - Declarative CLI Version Manager
 # https://aquaproj.github.io/
-# checksum:
-#   enabled: true
-#   require_checksum: true
-#   supported_envs:
-#   - all
 registries:
-  - type: standard
-    ref: v4.446.0 # renovate: depName=aquaproj/aqua-registry
-  - name: 5341reg
-    type: github_content
-    repo_owner: "0x5341"
-    repo_name: aqua-5341reg
-    ref: e72a353243d402028e734e7a22f117b345b24ace # renovate: depName=0x5341/aqua-5341reg
-    path: registry.yaml
+  - name: local
+    type: local
+    path: ./registry.yaml
 packages:
-  - name: microsoft/vscode@1.107.1
-    registry: 5341reg
+  - name: bootandy/dust@v1.2.3
+    registry: local
