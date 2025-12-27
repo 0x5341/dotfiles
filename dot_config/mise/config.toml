@@ -25,6 +25,8 @@ rg = "latest"
 fzf = "latest"
 fd = "latest"
 yazi = "latest"
+bottom = "latest"
+duf = "latest"
 
 # ai
 gemini = "latest"
