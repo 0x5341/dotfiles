@@ -1,0 +1,28 @@
+{
+  "servers": {
+    "github": {
+      "type": "stdio",
+      "command": "github-mcp-server",
+      "args": [
+        "stdio"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "{{ .secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}"
+      }
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "context7-mcp",
+      "args": []
+    },
+    "serena": {
+      "type": "stdio",
+      "command": "serena-mcp-server",
+      "args": [
+        "--context",
+        "ide-assistant"
+      ]
+    }
+  },
+  "inputs": []
+}
