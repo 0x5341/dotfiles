@@ -7,5 +7,5 @@ registries:
     type: local
     path: ./registry.yaml
 packages:
-  - name: bootandy/dust@v1.2.3
+  - name: github/copilot-cli@v0.0.372
     registry: local
