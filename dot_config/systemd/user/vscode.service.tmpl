@@ -1,0 +1,11 @@
+[Unit]
+Description=VSCode Server
+After=network.target
+
+[Service]
+ExecStart=/home/{{ .chezmoi.username }}/.local/share/mise/shims/nu -c "code serve-web --connection-token-file /home/{{ .chezmoi.username }}/.vscode-server-token"
+Restart=always
+RuntimeMaxSec=86400
+
+[Install]
+WantedBy=default.target
