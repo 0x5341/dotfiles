@@ -1,2 +1,2 @@
 [env]
-GITHUB_PERSONAL_ACCESS_TOKEN = "{{ output "gh" "auth" "token" | trim }}"
+GITHUB_PERSONAL_ACCESS_TOKEN = "{{ output "sh" "-c" "gh auth token || true" | trim }}"
