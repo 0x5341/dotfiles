@@ -4,6 +4,8 @@ setup.sh
 
 share
 
+scripts
+
 {{if not .aqua.enable}}
 ./.config/aqua/aquaproj-aqua
 {{end}}
