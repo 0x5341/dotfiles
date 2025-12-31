@@ -6,18 +6,11 @@ uv = "latest"      # for `pipx:` install
 aqua = "latest"
 
 # programming
-neovim = "latest"
-lazygit = "latest"                       # for lazyvim
-tree-sitter = "latest"                   # for lazyvim
-node = "latest"                          # for lazyvim
-make = "latest"                          # for lazyvim
 gh = "latest"
 ghq = "latest"
-"aqua:microsoft/vscode/code" = "1.107.1"
 
 # shell
 "aqua:nushell/nushell" = "latest"
-zellij = "latest"
 starship = "latest"
 
 # tools
@@ -30,12 +23,11 @@ duf = "latest"
 
 # ai
 gemini = "latest"
+opencode = "latest"
+"aqua:github/copilot-cli" = "0.0.373"
 "aqua:github/github-mcp-server" = "0.26.3"
 "npm:@upstash/context7-mcp" = "latest"
 "pipx:git+https://github.com/oraios/serena.git" = "latest"
-opencode = "latest"
-"aqua:github/copilot-cli" = "0.0.373"
-
 
 [env]
 EDITOR = "nvim"
