@@ -10,7 +10,7 @@ scripts
 ./.config/aqua/aquaproj-aqua
 {{end}}
 
-{{if eq .chezmoi.os "windows"}}
+{{if ne .chezmoi.os "linux"}}
 .bashrc
 .vscode-server
 {{end}}
