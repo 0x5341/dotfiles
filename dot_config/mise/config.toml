@@ -34,6 +34,7 @@ gemini = "latest"
 "npm:@upstash/context7-mcp" = "latest"
 "pipx:git+https://github.com/oraios/serena.git" = "latest"
 opencode = "latest"
+"aqua:github/copilot-cli" = "0.0.373"
 
 
 [env]
