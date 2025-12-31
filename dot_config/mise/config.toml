@@ -2,6 +2,7 @@
 # general
 chezmoi = "latest"
 bun = "latest"     # for `npm:` install
+node = "latest"    # for `npm:` install
 uv = "latest"      # for `pipx:` install
 aqua = "latest"
 
@@ -9,7 +10,6 @@ aqua = "latest"
 neovim = "latest"
 lazygit = "latest"                       # for lazyvim
 tree-sitter = "latest"                   # for lazyvim
-node = "latest"                          # for lazyvim
 make = "latest"                          # for lazyvim
 gh = "latest"
 ghq = "latest"
