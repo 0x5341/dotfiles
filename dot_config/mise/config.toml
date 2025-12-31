@@ -6,12 +6,19 @@ uv = "latest"      # for `pipx:` install
 aqua = "latest"
 
 # programming
+neovim = "latest"
+lazygit = "latest"                       # for lazyvim
+tree-sitter = "latest"                   # for lazyvim
+node = "latest"                          # for lazyvim
+make = "latest"                          # for lazyvim
 gh = "latest"
 ghq = "latest"
+"aqua:microsoft/vscode/code" = "1.107.1"
 
 # shell
 "aqua:nushell/nushell" = "latest"
 starship = "latest"
+zellij = "latest"
 
 # tools
 rg = "latest"
