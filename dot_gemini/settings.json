@@ -13,14 +13,24 @@
       "command": "github-mcp-server",
       "args": [
         "stdio"
-      ],
+      ]
     },
     "context7": {
       "command": "context7-mcp"
     },
     "serena": {
       "command": "serena-mcp-server",
-      "args": ["--context", "ide-assistant"]
+      "args": [
+        "--context",
+        "ide-assistant"
+      ]
+    },
+    "playwright": {
+      "command": "mcp-server-playwright",
+      "args": [
+        "--browser",
+        "firefox"
+      ]
     }
   }
 }
