@@ -14,6 +14,7 @@ make = "latest"                          # for lazyvim
 gh = "latest"
 ghq = "latest"
 "aqua:microsoft/vscode/code" = "1.107.1"
+"npm:vibe-kanban" = "latest"
 
 # shell
 "aqua:nushell/nushell" = "latest"
