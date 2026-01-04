@@ -1,0 +1,11 @@
+[Unit]
+Description=vibe-kanban server
+After=network.target
+
+[Service]
+ExecStart={{.chezmoi.homeDir}}/.local/share/mise/shims/nu -c "PORT=4001 vibe-kanban"
+Restart=always
+RuntimeMaxSec=86400
+
+[Install]
+WantedBy=default.target

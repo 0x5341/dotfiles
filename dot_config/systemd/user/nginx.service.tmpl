@@ -1,0 +1,11 @@
+[Unit]
+Description=nginx (tcp forwarding)
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/nginx -p {{ .chezmoi.homeDir }}/.nginx -c {{ .chezmoi.homeDir }}/.nginx/nginx.conf -g "daemon off;"
+Restart=always
+RuntimeMaxSec=86400
+
+[Install]
+WantedBy=default.target
