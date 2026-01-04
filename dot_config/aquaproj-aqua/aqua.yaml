@@ -6,4 +6,11 @@ registries:
   - name: local
     type: local
     path: ./registry.yaml
+  - name: myreg
+    type: github_content
+    repo_owner: "0x5341"
+    repo_name: aqua-5341reg
+    ref: 2043f6c1f063107a418c894c5995c201784eaeb9
 packages:
+  - name: 0x5341/dv@v0.1.0
+    registry: myreg
