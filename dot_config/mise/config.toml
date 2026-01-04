@@ -28,6 +28,8 @@ fd = "latest"
 yazi = "latest"
 bottom = "latest"
 duf = "latest"
+dust = "latest"
+lazydocker = "latest"
 
 # ai
 gemini = "latest"
