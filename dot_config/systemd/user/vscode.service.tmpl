@@ -3,7 +3,7 @@ Description=VSCode Server
 After=network.target
 
 [Service]
-ExecStart=/home/{{ .chezmoi.username }}/.local/share/mise/shims/nu -c "code serve-web --without-connection-token"
+ExecStart=/home/{{ .chezmoi.username }}/.local/share/mise/shims/nu -c "code serve-web --without-connection-token --host 0.0.0.0"
 Restart=always
 RuntimeMaxSec=86400
 

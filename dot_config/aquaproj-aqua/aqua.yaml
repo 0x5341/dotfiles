@@ -13,5 +13,5 @@ registries:
     ref: 2043f6c1f063107a418c894c5995c201784eaeb9
     path: registry.yaml
 packages:
-  - name: 0x5341/dv@v0.1.0
+  - name: 0x5341/dv@v0.3.0
     registry: myreg
