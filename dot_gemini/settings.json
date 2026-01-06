@@ -8,6 +8,12 @@
   "general": {
     "previewFeatures": true
   },
+  "context": {
+    "fileName": [
+      "GEMINI.md",
+      "AGENTS.md"
+    ]
+  },
   "mcpServers": {
     "github": {
       "command": "github-mcp-server",
