@@ -23,5 +23,9 @@
         "ide-assistant"
       ]
     }
-  }
+  },
+  "plugin": [
+    "opencode-google-antigravity-auth",
+    "opencode-pty"
+  ]
 }
