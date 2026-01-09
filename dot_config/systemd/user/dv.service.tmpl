@@ -8,7 +8,7 @@ Environment=DV_SERVER_PORT=3000
 Environment=DV_VIBE_KANBAN_PORT=4000
 Environment=DV_GHQ_ROOT={{.chezmoi.homeDir}}/ghq
 Environment=DV_GHQ_PATH={{.chezmoi.homeDir}}/.local/share/mise/shims/ghq
-Environment=PATH={{.chezmoi.homeDir}}/.local/share/mise/shims:{{.chezmoi.homeDir}}/.local/share/aquaproj-aqua/bin
+Environment=PATH={{.chezmoi.homeDir}}/.local/share/mise/shims:{{.chezmoi.homeDir}}/.local/share/aquaproj-aqua/bin:/usr/bin
 Environment=AQUA_GLOBAL_CONFIG={{.chezmoi.homeDir}}/.config/aquaproj-aqua/aqua.yaml
 Environment=AQUA_POLICY_CONFIG={{.chezmoi.homeDir}}/.config/aquaproj-aqua/aqua-policy.yaml
 ExecStart={{.chezmoi.homeDir}}/.local/share/aquaproj-aqua/bin/dv
