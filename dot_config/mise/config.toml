@@ -33,7 +33,8 @@ lazydocker = "latest"
 
 # ai
 gemini = "latest"
-opencode = "latest"
+"aqua:anomalyco/opencode" = "latest"
+"npm:@openchamber/web" = "latest"
 "aqua:github/copilot-cli" = "0.0.373"
 "aqua:github/github-mcp-server" = "0.26.3"
 "npm:@upstash/context7-mcp" = "latest"
