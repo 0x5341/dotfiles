@@ -8,6 +8,11 @@
   "general": {
     "previewFeatures": true
   },
+  "experimental": {
+    "skills": true,
+    "plan": true,
+    "useOSC52Paste": true
+  },
   "context": {
     "fileName": [
       "GEMINI.md",

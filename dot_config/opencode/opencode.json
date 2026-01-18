@@ -22,6 +22,14 @@
         "--context",
         "ide-assistant"
       ]
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "mcp-server-playwright",
+        "--browser",
+        "firefox"
+      ]
     }
   },
   "plugin": [

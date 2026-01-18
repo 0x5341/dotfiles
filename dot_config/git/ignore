@@ -8,3 +8,5 @@ mise.local.toml
 mise/*.local.toml
 
 /.vscode
+
+/.individual
