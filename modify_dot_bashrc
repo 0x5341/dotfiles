@@ -6,7 +6,10 @@
 {{- if not (contains $flag .chezmoi.stdin) -}}
 {{ $flag }}
 
+# mise activate --shim
+eval "$(~/.local/bin/mise activate --shims bash)"
+
 # mise activate
-eval "$(~/.local/bin/mise activate bash)"
+# eval "$(~/.local/bin/mise activate bash)"
 
 {{ end -}}
