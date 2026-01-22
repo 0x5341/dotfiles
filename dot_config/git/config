@@ -1,15 +1,15 @@
 [user]
 	email = 107183580+0x5341@users.noreply.github.com
 	name = 0x5341
-; [commit]
-;   gpgsign = true
+[commit]
+    gpgsign = true
 [user]
   signingkey = "C646BF864A239A2D"
-[credential "https://github.com"]
-	helper = 
-	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.86.0/gh_2.86.0_linux_arm64/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = 
-	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.86.0/gh_2.86.0_linux_arm64/bin/gh auth git-credential
 [init]
 	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/ubuntu/.local/share/mise/shims/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/ubuntu/.local/share/mise/shims/gh auth git-credential
