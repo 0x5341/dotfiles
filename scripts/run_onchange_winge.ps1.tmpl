@@ -1,5 +1,0 @@
-{{if eq .chezmoi.os "windows"}}
-{{ range .winget.packages -}}
-winget install --id {{ . }} --exact --silent
-{{ end -}}
-{{end}}
