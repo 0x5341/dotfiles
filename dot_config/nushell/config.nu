@@ -35,6 +35,6 @@ def --env czcd [] {
 }
 
 def --env pjcd [] {
-  cd ("~/ghq/" + (ghq list | fzf))
+  cd (ghq list --full-path | fzf)
 }
 
