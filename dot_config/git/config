@@ -7,7 +7,9 @@
   signingkey = "C646BF864A239A2D"
 [credential "https://github.com"]
 	helper = 
-	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.85.0/gh_2.85.0_linux_arm64/bin/gh auth git-credential
+	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.86.0/gh_2.86.0_linux_arm64/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
-	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.85.0/gh_2.85.0_linux_arm64/bin/gh auth git-credential
+	helper = !/home/ubuntu/.local/share/mise/installs/gh/2.86.0/gh_2.86.0_linux_arm64/bin/gh auth git-credential
+[init]
+	defaultBranch = main
