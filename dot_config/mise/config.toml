@@ -46,7 +46,7 @@ gemini = "latest"
 "npm:@playwright/mcp" = "latest"
 
 [env]
-EDITOR = "nvim"
+EDITOR = "hx"
 
 [settings]
 npm.package_manager = "bun"
