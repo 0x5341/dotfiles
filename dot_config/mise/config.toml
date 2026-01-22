@@ -11,6 +11,7 @@ neovim = "latest"
 lazygit = "latest"                       # for lazyvim
 tree-sitter = "latest"                   # for lazyvim
 make = "latest"                          # for lazyvim
+helix = "latest"
 gh = "latest"
 "aqua:dlvhdr/gh-dash" = "latest"
 "aqua:boyter/scc" = "latest"
