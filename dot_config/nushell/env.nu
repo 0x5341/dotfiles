@@ -23,5 +23,6 @@ path add $"(~/.local/share/mise/shims/aqua root-dir)/bin"
 
 $env.GPG_TTY = (tty)
 
-source ./aqua.nu
+$env.AQUA_GLOBAL_CONFIG = $"($env.HOME)/.config/aquaproj-aqua/aqua.yaml"
+$env.AQUA_POLICY_CONFIG = $"($env.HOME)/.config/aquaproj-aqua/aqua-policy.yaml"
 
