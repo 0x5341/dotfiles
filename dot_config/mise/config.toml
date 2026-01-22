@@ -7,7 +7,6 @@ uv = "latest"      # for `pipx:` install
 aqua = "latest"
 
 # programming
-helix = "latest"
 gh = "latest"
 "aqua:dlvhdr/gh-dash" = "latest"
 "aqua:boyter/scc" = "latest"
