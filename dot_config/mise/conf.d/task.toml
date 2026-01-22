@@ -1,0 +1,16 @@
+[tasks.dstop]
+run = """
+systemctl --user stop dv
+systemctl --user stop nginx
+systemctl --user stop openchamber
+systemctl --user stop vibe-kanban
+systemctl --user stop vscode
+"""
+[tasks.dstart]
+run = """
+systemctl --user start dv
+systemctl --user start nginx
+systemctl --user start openchamber
+systemctl --user start vibe-kanban
+systemctl --user start vscode
+"""
