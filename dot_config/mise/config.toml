@@ -1,11 +1,10 @@
 [tools]
 # general
 chezmoi = "latest"
-bun = "latest"     # for `npm:` install
-node = "latest"    # for `npm:` install
-uv = "latest"      # for `pipx:` install
+bun = "latest"  # for `npm:` install
+node = "latest"  # for `npm:` install
+uv = "latest"  # for `pipx:` install
 aqua = "latest"
-
 # programming
 gh = "latest"
 "aqua:dlvhdr/gh-dash" = "latest"
@@ -13,12 +12,10 @@ gh = "latest"
 ghq = "latest"
 "aqua:microsoft/vscode/code" = "1.107.1"
 coder = "latest"
-
 # shell
 "aqua:nushell/nushell" = "latest"
 starship = "latest"
 zellij = "latest"
-
 # tools
 rg = "latest"
 fzf = "latest"
@@ -28,13 +25,15 @@ bottom = "latest"
 duf = "latest"
 dust = "latest"
 lazydocker = "latest"
-
+lazygit = "latest"
 # ai
+# agents
 gemini = "latest"
-"aqua:anomalyco/opencode" = "latest"
-"npm:@openchamber/web" = "latest"
 "aqua:github/copilot-cli" = "0.0.384"
 "npm:@sourcegraph/amp" = "latest"
+"aqua:anomalyco/opencode" = "latest"
+"npm:@openchamber/web" = "latest"
+# mcps
 "aqua:github/github-mcp-server" = "0.28.1"
 "npm:@upstash/context7-mcp" = "latest"
 "pipx:git+https://github.com/oraios/serena.git" = "latest"
