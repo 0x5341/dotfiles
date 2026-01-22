@@ -16,7 +16,6 @@ gh = "latest"
 "aqua:boyter/scc" = "latest"
 ghq = "latest"
 "aqua:microsoft/vscode/code" = "1.107.1"
-"npm:vibe-kanban" = "latest"
 coder = "latest"
 
 # shell
