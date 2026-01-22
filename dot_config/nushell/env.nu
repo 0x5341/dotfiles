@@ -19,6 +19,7 @@
 
 use std/util "path add"
 path add "~/.local/bin"
+path add "~/bin"
 path add $"(~/.local/share/mise/shims/aqua root-dir)/bin"
 
 $env.GPG_TTY = (tty)
