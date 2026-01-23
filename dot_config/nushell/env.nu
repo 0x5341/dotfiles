@@ -27,4 +27,4 @@ $env.GPG_TTY = (tty)
 $env.AQUA_GLOBAL_CONFIG = $"($env.HOME)/.config/aquaproj-aqua/aqua.yaml"
 $env.AQUA_POLICY_CONFIG = $"($env.HOME)/.config/aquaproj-aqua/aqua-policy.yaml"
 
-$env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
+# $env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
