@@ -37,7 +37,6 @@ gemini = "latest"
 "aqua:github/github-mcp-server" = "0.28.1"
 "npm:@upstash/context7-mcp" = "latest"
 "pipx:git+https://github.com/oraios/serena.git" = "latest"
-"npm:@playwright/mcp" = "latest"
 
 [env]
 EDITOR = "hx"

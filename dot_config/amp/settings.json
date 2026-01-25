@@ -15,13 +15,6 @@
         "--context",
         "ide-assistant"
       ]
-    },
-    "playwright": {
-      "command": "mcp-server-playwright",
-      "args": [
-        "--browser",
-        "firefox"
-      ]
     }
   }
 }
