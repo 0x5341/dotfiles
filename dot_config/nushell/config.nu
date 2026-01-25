@@ -39,3 +39,11 @@ def --env pjcd [] {
   cd (ghq list --full-path | fzf)
 }
 
+def --env pjrm [] {
+  let root = (ghq root)
+  let repo = (ghq list | fzf)
+  if $env.PWD == ($root | path join $repo) {
+    cd
+  }
+  ghq rm $repo
+}
