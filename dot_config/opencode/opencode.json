@@ -7,14 +7,6 @@
       "command": [
         "context7-mcp"
       ]
-    },
-    "serena": {
-      "type": "local",
-      "command": [
-        "serena-mcp-server",
-        "--context",
-        "ide-assistant"
-      ]
     }
   },
   "plugin": [
