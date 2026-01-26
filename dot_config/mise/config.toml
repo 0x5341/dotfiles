@@ -33,7 +33,6 @@ gemini = "latest"
 "aqua:anomalyco/opencode" = "latest"
 "npm:@openchamber/web" = "latest"
 # mcps
-"aqua:github/github-mcp-server" = "0.28.1"
 "npm:@upstash/context7-mcp" = "latest"
 "pipx:git+https://github.com/oraios/serena.git" = "latest"
 

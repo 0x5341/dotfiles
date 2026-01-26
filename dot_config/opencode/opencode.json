@@ -2,13 +2,6 @@
   "$schema": "https://opencode.ai/config.json",
   "theme": "catppuccin-frappe",
   "mcp": {
-    "github": {
-      "type": "local",
-      "command": [
-        "github-mcp-server",
-        "stdio"
-      ]
-    },
     "context7": {
       "type": "local",
       "command": [
