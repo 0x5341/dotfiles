@@ -28,6 +28,7 @@ source ./catppuccin_frappe.nu
 alias cz = chezmoi
 alias lg = lazygit
 alias yz = yazi
+alias dcop = copilot --allow-all-tools --allow-all-urls
 alias la = ls --all
 alias ll = ls -l --all
 
