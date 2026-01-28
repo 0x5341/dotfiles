@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "context7": {
+      "tools": [
+        "*"
+      ],
+      "type": "local",
+      "command": "context7-mcp",
+      "args": []
+    }
+  }
+}
