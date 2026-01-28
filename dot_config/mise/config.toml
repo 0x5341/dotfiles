@@ -34,7 +34,6 @@ gemini = "latest"
 "npm:@openchamber/web" = "latest"
 # mcps
 "npm:@upstash/context7-mcp" = "latest"
-"pipx:git+https://github.com/oraios/serena.git" = "latest"
 
 [env]
 EDITOR = "hx"

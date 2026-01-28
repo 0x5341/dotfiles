@@ -2,13 +2,6 @@
   "amp.mcpServers": {
     "context7": {
       "command": "context7-mcp"
-    },
-    "serena": {
-      "command": "serena-mcp-server",
-      "args": [
-        "--context",
-        "ide-assistant"
-      ]
     }
   }
 }
