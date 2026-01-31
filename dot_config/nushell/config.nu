@@ -28,7 +28,7 @@ source ./catppuccin_frappe.nu
 alias cz = chezmoi
 alias lg = lazygit
 alias yz = yazi
-alias dcop = copilot --allow-all-tools --allow-all-urls
+alias dcop = copilot --allow-all-tools --allow-all-urls --deny-tool "shell(cat)" --deny-tool "shell(python)"
 alias la = ls --all
 alias ll = ls -l --all
 
