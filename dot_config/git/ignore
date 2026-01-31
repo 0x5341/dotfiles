@@ -10,3 +10,5 @@ mise/*.local.toml
 /.vscode
 
 /.individual
+
+/.worktree
