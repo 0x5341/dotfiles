@@ -10,6 +10,8 @@ gh = "latest"
 "aqua:dlvhdr/gh-dash" = "latest"
 "aqua:boyter/scc" = "latest"
 ghq = "latest"
+jj = "latest"
+jjui = "latest"
 "aqua:microsoft/vscode/code" = "1.107.1"
 # shell
 "aqua:nushell/nushell" = "latest"
