@@ -49,3 +49,8 @@ def --env pjrm [] {
   }
   ghq rm $repo
 }
+
+def --env gitcd [] {
+  let root = (git rev-parse --show-superproject-working-tree --show-toplevel | head -1)
+  cd $root
+}
