@@ -1,4 +1,8 @@
 [tools]
 helix = "latest"
+# requires for lsp
+go = "latest"
 # lsps
-tombi = "latest"
+tombi = "latest"  # toml
+"go:golang.org/x/tools/gopls" = "latest"  # go
+"npm:typescript-language-server" = "latest"  # js/ts
