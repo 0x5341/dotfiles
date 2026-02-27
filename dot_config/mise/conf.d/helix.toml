@@ -6,3 +6,6 @@ go = "latest"
 tombi = "latest"  # toml
 "go:golang.org/x/tools/gopls" = "latest"  # go
 "npm:typescript-language-server" = "latest"  # js/ts
+"npm:yaml-language-server" = "latest"  # yaml
+"npm:vscode-json-languageserver" = "latest"
+"npm:@microsoft/compose-language-service" = "latest"  # docker-compose
