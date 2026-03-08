@@ -2,3 +2,11 @@
 name = "toml"
 auto-format = true
 language-servers = ["tombi"]
+
+[[language]]
+name = "json"
+language-servers = ["jsonlsp"]
+
+[language-server.jsonlsp]
+command = "vscode-json-languageserver"
+args = ["--stdio"]
