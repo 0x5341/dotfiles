@@ -9,3 +9,7 @@ tombi = "latest"  # toml
 "npm:yaml-language-server" = "latest"  # yaml
 "npm:vscode-json-languageserver" = "latest"
 "npm:@microsoft/compose-language-service" = "latest"  # docker-compose
+"npm:bash-language-server" = "latest"
+shellcheck = "latest"
+shfmt = "latest"
+lua-language-server = "latest"
