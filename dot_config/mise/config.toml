@@ -32,7 +32,6 @@ gemini = "latest"
 "aqua:github/copilot-cli" = "latest"
 "npm:@sourcegraph/amp" = "latest"
 "aqua:anomalyco/opencode" = "latest"
-"npm:@openchamber/web" = "latest"
 # mcps
 "npm:@upstash/context7-mcp" = "latest"
 
