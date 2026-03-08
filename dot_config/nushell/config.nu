@@ -21,7 +21,6 @@ $env.config.show_banner = false
 
 mkdir ($nu.data-dir | path join "vendor/autoload")
 ~/.local/share/mise/shims/starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
-~/.local/share/mise/shims/jj util completion nushell | save -f ($nu.data-dir | path join "vendor/autoload/jj.nu")
 ~/.local/bin/mise activate nu | save -f ($nu.data-dir | path join "vendor/autoload/mise.nu")
 
 source ./catppuccin_frappe.nu
