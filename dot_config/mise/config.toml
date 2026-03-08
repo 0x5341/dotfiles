@@ -10,8 +10,6 @@ gh = "latest"
 "aqua:dlvhdr/gh-dash" = "latest"
 "aqua:boyter/scc" = "latest"
 ghq = "latest"
-jj = "latest"
-jjui = "latest"
 "aqua:microsoft/vscode/code" = "1.107.1"
 "npm:@devcontainers/cli" = "latest"
 # shell
